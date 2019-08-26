@@ -1,0 +1,25 @@
+{
+  "name": "letterbotd",
+  "version": "1.0.0",
+  "description": "Screenshot of Letterboxd recently watched.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gituhb.com/raw-bit/letterbotd"
+  },
+  "keywords": [
+    "bot",
+    "film",
+    "letterboxd"
+  ],
+  "author": "Kenny Jeffery",
+  "license": "ISC",
+  "dependencies": {
+    "webpage-capture": "^0.2.2",
+    "twitter": "^1.7.1",
+    "node-env-file": "^0.1.8",
+  }
+}
