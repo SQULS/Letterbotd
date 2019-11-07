@@ -69,6 +69,6 @@ function tweet() {
 }
 
 getFilms()
-schedule.scheduleJob('0 5 15 * * 6', function () {
+schedule.scheduleJob('5 10 1 * *', function () {
     getFilms()
 })
